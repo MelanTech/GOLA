@@ -1,0 +1,1 @@
+python ../evaluation.py lasher --tracker_names GOLA --result_paths ./DINOv2-L-224

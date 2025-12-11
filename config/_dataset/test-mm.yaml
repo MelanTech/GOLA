@@ -1,0 +1,20 @@
+filters:
+  - type: "data_cleaning.annotation_standard"
+    parameters:
+      bounding_box_format: "XYXY"
+      bounding_box_coordinate_system: "Continuous"
+
+datasets:
+  - name: "LasHeR"
+    type: "MMOT"
+    splits:
+      - "test"
+
+#  - name: "RGBT234"
+#    type: "MMOT"
+
+#  - name: "RGBT210"
+#    type: "MMOT"
+
+#  - name: "GTOT"
+#    type: "MMOT"
